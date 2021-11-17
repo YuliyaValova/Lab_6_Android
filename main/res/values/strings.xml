@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab 6</string>
+    <string name="fileName">File Name</string>
+    <string name="readFile">Read from file</string>
+    <string name="writeFile">Write to file</string>
+    <string name="stSurname">Surname</string>
+    <string name="stGroup">Group</string>
+    <string name="stFaculty">Faculty</string>
+    <string name="fileText">File Text</string>
+</resources>

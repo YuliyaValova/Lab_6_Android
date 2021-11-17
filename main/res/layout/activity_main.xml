@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="35dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/FileName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fileName" />
+
+    <EditText
+        android:id="@+id/Surname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/stSurname" />
+
+    <EditText
+        android:id="@+id/Group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/stGroup" />
+
+    <EditText
+        android:id="@+id/Faculty"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/stFaculty" />
+
+    <Button
+        android:id="@+id/bWrite"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="saveText"
+        android:text="@string/writeFile"
+        app:backgroundTint="#00BCD4" />
+
+    <EditText
+        android:id="@+id/fRead"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fileName" />
+
+    <Button
+        android:id="@+id/bRead"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openText"
+        android:text="@string/readFile"
+        app:backgroundTint="#00BCD4" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="39dp" />
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Info from the file"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/fileOutput"
+        android:layout_width="fill_parent"
+        android:layout_height="122dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"/>
+
+</LinearLayout>
